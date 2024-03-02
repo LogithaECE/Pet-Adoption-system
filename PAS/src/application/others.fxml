@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="669.0">
+         <children>
+            <AnchorPane layoutX="14.0" layoutY="68.0" prefHeight="312.0" prefWidth="200.0" style="-fx-background-color: #ADD8E6;">
+               <children>
+                  <Button layoutX="13.0" layoutY="14.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="175.0" style="-fx-background-image: url('https://i.pinimg.com/736x/57/42/68/574268362da81abd6fcface62f8d57a2.jpg');; -fx-background-size: cover;" />
+                  <Label layoutX="14.0" layoutY="198.0" prefHeight="23.0" prefWidth="175.0" text="Snowy" />
+                  <Label layoutX="14.0" layoutY="221.0" prefHeight="23.0" prefWidth="175.0" text="Age: 4 months" />
+                  <Label layoutX="14.0" layoutY="244.0" prefHeight="17.0" prefWidth="175.0" text="Species: Hamster" />
+                  <Button layoutX="11.0" layoutY="273.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="175.0" style="-fx-background-color: #012A4A;" text="Rs. 49,230" textFill="#97fdff" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="43.0" prefWidth="669.0" style="-fx-background-color: #012A4A;">
+               <children>
+                  <Button fx:id="others" layoutX="8.0" layoutY="9.0" mnemonicParsing="false" onAction="#switchtoHome1" style="-fx-background-color: transparent;" text="🡰" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="235.0" layoutY="68.0" prefHeight="312.0" prefWidth="200.0" style="-fx-background-color: #65c9d4;">
+               <children>
+                  <Button layoutX="13.0" layoutY="14.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="175.0" style="-fx-background-image: url('https://i.pinimg.com/564x/9e/05/a4/9e05a4feee6af139760af49a6a44267c.jpg');; -fx-background-size: cover;" />
+                  <Label layoutX="13.0" layoutY="195.0" prefHeight="23.0" prefWidth="175.0" text="Mellow" />
+                  <Label layoutX="13.0" layoutY="218.0" prefHeight="23.0" prefWidth="175.0" text="Age: 7 months" />
+                  <Label layoutX="13.0" layoutY="241.0" prefHeight="17.0" prefWidth="175.0" text="Species: Rabbit" />
+                  <Button layoutX="13.0" layoutY="273.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="175.0" style="-fx-background-color: #012A4A;" text="Rs. 3,560" textFill="#abf7ff" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="455.0" layoutY="68.0" prefHeight="312.0" prefWidth="200.0" style="-fx-background-color: #00b4d8;">
+               <children>
+                  <Button layoutX="13.0" layoutY="14.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="175.0" style="-fx-background-image: url('https://i.pinimg.com/474x/62/8b/fd/628bfda7c8b5d437e52eddad92ee074b.jpg');; -fx-background-size: cover;" />
+                  <Label layoutX="16.0" layoutY="196.0" prefHeight="23.0" prefWidth="175.0" text="Scotty" />
+                  <Label layoutX="16.0" layoutY="219.0" prefHeight="23.0" prefWidth="175.0" text="Age: 8 months" />
+                  <Label layoutX="16.0" layoutY="242.0" prefHeight="17.0" prefWidth="175.0" text="Species: Lamb" />
+                  <Button layoutX="13.0" layoutY="273.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="175.0" style="-fx-background-color: #012A4A;" text="Rs. 15,342" textFill="#c3f6ff" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

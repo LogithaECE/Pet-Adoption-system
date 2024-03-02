@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="669.0">
+         <children>
+            <AnchorPane layoutX="14.0" layoutY="68.0" prefHeight="312.0" prefWidth="200.0" style="-fx-background-color: #ADD8E6;">
+               <children>
+                  <Button layoutX="13.0" layoutY="14.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="175.0" style="-fx-background-image: url('https://scontent-tir3-1.xx.fbcdn.net/v/t1.6435-9/157126006_103407965149431_10766577501511901_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=be3454&amp;_nc_ohc=jkcjXzuGA-YAX9Uyfty&amp;_nc_ht=scontent-tir3-1.xx&amp;oh=00_AfClRXylRwNpb0SmHrOWblnqaG9qazdi_d7T3UpFg5iSlA&amp;oe=659A0F96'); -fx-background-size: cover;" />
+                  <Label layoutX="14.0" layoutY="198.0" prefHeight="23.0" prefWidth="175.0" text="Daisy" />
+                  <Label layoutX="14.0" layoutY="221.0" prefHeight="23.0" prefWidth="175.0" text="Age: 6 months" />
+                  <Label layoutX="14.0" layoutY="244.0" prefHeight="17.0" prefWidth="175.0" text="Breed: Persian Cat" />
+                  <Button layoutX="11.0" layoutY="273.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="175.0" style="-fx-background-color: #012A4A;" text="Rs. 15,999" textFill="#97fdff" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="43.0" prefWidth="669.0" style="-fx-background-color: #012A4A;">
+               <children>
+                  <Button fx:id="others" layoutX="7.0" layoutY="9.0" mnemonicParsing="false" onAction="#switchtoHome1" style="-fx-background-color: transparent;" text="🡰" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="235.0" layoutY="68.0" prefHeight="312.0" prefWidth="200.0" style="-fx-background-color: #65c9d4;">
+               <children>
+                  <Button layoutX="13.0" layoutY="14.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="175.0" style="-fx-background-image: url('https://assets.isu.pub/document-structure/230415235705-f98c881c04f96f132c7fcfa76df68da5/v1/d76ba304d22c6df986c904e8778e82c5.jpeg'); -fx-background-size: cover;" />
+                  <Label layoutX="13.0" layoutY="195.0" prefHeight="23.0" prefWidth="175.0" text="Zoro" />
+                  <Label layoutX="13.0" layoutY="218.0" prefHeight="23.0" prefWidth="175.0" text="Age: 3 months" />
+                  <Label layoutX="13.0" layoutY="241.0" prefHeight="17.0" prefWidth="175.0" text="Breed: Scottish Fold" />
+                  <Button layoutX="13.0" layoutY="273.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="175.0" style="-fx-background-color: #012A4A;" text="Rs. 23,678" textFill="#abf7ff" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="455.0" layoutY="68.0" prefHeight="312.0" prefWidth="200.0" style="-fx-background-color: #00b4d8;">
+               <children>
+                  <Button layoutX="13.0" layoutY="14.0" mnemonicParsing="false" prefHeight="172.0" prefWidth="175.0" style="-fx-background-image: url('https://www.mainecooncentral.com/wp-content/uploads/cropped-How-To-Find-A-Reputable-Maine-Coon-Breeder-1200cp-638x850.jpeg');; -fx-background-size: cover;" />
+                  <Label layoutX="16.0" layoutY="196.0" prefHeight="23.0" prefWidth="175.0" text="Melon" />
+                  <Label layoutX="16.0" layoutY="219.0" prefHeight="23.0" prefWidth="175.0" text="Age: 5 months" />
+                  <Label layoutX="16.0" layoutY="242.0" prefHeight="17.0" prefWidth="175.0" text="Breed: Maine Coon" />
+                  <Button layoutX="13.0" layoutY="273.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="175.0" style="-fx-background-color: #012A4A;" text="Rs. 26,342" textFill="#c3f6ff" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

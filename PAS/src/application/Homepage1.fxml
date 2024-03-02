@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <top>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="612.0" style="-fx-background-color: #ADD8E6;" BorderPane.alignment="CENTER">
+         <children>
+            <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="9.0" layoutY="121.0" mnemonicParsing="false" onAction="#switchdog" prefHeight="271.0" prefWidth="199.0" style="-fx-background-image: url('https://img.freepik.com/premium-photo/female-maltese-white-dog-photoshoot-studio-pet-photography-with-concept-breaking-yellow-paper-head-through-it-with-expression_374656-498.jpg?size=626&amp;ext=jpg&amp;ga=GA1.1.1826414947.1699833600&amp;semt=ais'); -fx-background-size: cover;" text="Dog" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="207.0" layoutY="122.0" mnemonicParsing="false" onAction="#switchcat" prefHeight="269.0" prefWidth="207.0" style="-fx-background-image: url('https://thumbs.dreamstime.com/b/kitten-looking-torn-hole-pink-paper-playful-mood-kitty-unusual-concept-copy-space-164375121.jpg'); -fx-background-size: cover;" text="Cat">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="413.0" layoutY="123.0" mnemonicParsing="false" onAction="#switchothers" prefHeight="270.0" prefWidth="189.0" style="-fx-background-image: url('https://img.freepik.com/premium-photo/mouse-peeking-out-blue-blanket-with-his-ears-up_919652-946.jpg'); -fx-background-size: cover; -fx-background-position: centre;" text="Others">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Button>
+            <Text fill="#fffefe" layoutX="103.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What are You Looking For?" wrappingWidth="414.742919921875">
+               <font>
+                  <Font name="Times New Roman Bold" size="31.0" />
+               </font>
+            </Text>
+            <VBox prefHeight="29.0" prefWidth="612.0" style="-fx-background-color: #012A4A;">
+               <children>
+                  <Button fx:id="view" mnemonicParsing="false" onAction="#switchtoLogin" style="-fx-background-color: transparent;" text="🡰" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
